@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="324.0" prefWidth="409.0" style="-fx-background-color: #4863A0;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.yemekservis.AdminGirisController">
+   <children>
+      <TextField layoutX="117.0" layoutY="176.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <PasswordField layoutX="117.0" layoutY="219.0" prefHeight="30.0" prefWidth="174.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </PasswordField>
+      <Button layoutX="207.0" layoutY="265.0" mnemonicParsing="false" onAction="#girisYap" prefHeight="22.0" prefWidth="84.0" text="Giris">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="132.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/admin.png" />
+         </image>
+      </ImageView>
+      <Button layoutY="1.0" mnemonicParsing="false" style="-fx-background-color: #4162A5;" text="&lt;=" textFill="WHITE" />
+   </children>
+</AnchorPane>

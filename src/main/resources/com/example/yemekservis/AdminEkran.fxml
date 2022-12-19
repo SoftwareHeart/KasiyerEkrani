@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #2B65EC;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.yemekservis.AdminEkranController">
+   <children>
+      <ImageView fitHeight="65.0" fitWidth="74.0" layoutX="118.0" layoutY="112.0" onMouseClicked="#KasiyerEkleCikarEkraninaGir" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/kasiyer2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="209.0" fitWidth="236.0" layoutX="300.0" layoutY="106.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/admin.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="65.0" fitWidth="100.0" layoutX="114.0" layoutY="200.0" onMouseClicked="#marketEkraninaGit" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/sepet.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="65.0" fitWidth="68.0" layoutX="119.0" layoutY="290.0" onMouseClicked="#cikis" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/cikis.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="65.0" fitWidth="74.0" layoutX="114.0" layoutY="42.0" onMouseClicked="#ParaYonetimEkrani" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/para.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="345.0" layoutY="61.0" text="Ad Soyad">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
